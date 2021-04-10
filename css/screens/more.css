@@ -1,0 +1,26 @@
+.more-screen .icon-row{
+    margin-top : 55px;
+    margin : 25px;
+}
+
+.more-suggestions{
+    padding-left: 25px;
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.more-suggestions__title{
+    margin-bottom: 30px;
+    font-size:20px;
+    font-weight: 600;
+}
+
+.more-mark{
+    display: flex;
+    color: tomato;
+}
+
+.fa-comment-alt{
+color:#2F363E;
+}
