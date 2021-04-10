@@ -23,11 +23,17 @@
     padding-top: 15px;
 }
 
+.friends-screen__friends-header{
+    display: flex;
+    flex-direction: column;
+}
+
 .friends-screen__channel-header{
-    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     color: rgba(0,0,0,0.5);
+    padding: 0px 30px 25px 25px;
+
 }
 
 
@@ -54,4 +60,8 @@
     font-size: 132px;
     animation: hideSplashScreen 0.3s ease-in-out forwards;
     animation-delay: 1.5s;
+}
+
+#friends-display{
+    height: 500vh;
 }
